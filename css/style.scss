@@ -6,6 +6,7 @@
 body {
     background-color: #eef3f6;
     font-family: "Roboto", sans-serif;
+<<<<<<< HEAD
 
 
     .todoApp {
@@ -37,6 +38,36 @@ body {
 
                     &--check {}
                 }
+=======
+}
+
+.todoApp {
+
+    &__form {
+
+
+        &__input {
+
+
+            &--error {}
+        }
+
+        &__button {}
+    }
+
+    &__list {
+
+
+        &__item {
+
+            &--checked {}
+
+            .icon {
+
+                &--remove {}
+
+                &--check {}
+>>>>>>> 1021ebf7a55e066572000c6dba2aa5f0af313b2b
             }
         }
     }

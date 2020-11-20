@@ -139,11 +139,14 @@ body {
   background-color: #eef3f6;
   font-family: "Roboto", sans-serif;
 }
+<<<<<<< HEAD
 body .todoApp__form {
   width: 500px;
 }
 body .todoApp__list {
   width: 500px;
 }
+=======
+>>>>>>> 1021ebf7a55e066572000c6dba2aa5f0af313b2b
 
 /*# sourceMappingURL=style.css.map */
