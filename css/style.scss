@@ -7,7 +7,6 @@ body {
     background-color: #eef3f6;
     font-family: "Roboto", sans-serif;
 
-
     .todoApp {
         margin: 0 auto;
 
@@ -36,6 +35,40 @@ body {
                     &--remove {}
 
                     &--check {}
+                }
+
+
+            }
+
+            .todoApp {
+
+                &__form {
+
+
+                    &__input {
+
+
+                        &--error {}
+                    }
+
+                    &__button {}
+                }
+
+                &__list {
+
+
+                    &__item {
+
+                        &--checked {}
+
+                        .icon {
+
+                            &--remove {}
+
+                            &--check {}
+
+                        }
+                    }
                 }
             }
         }
