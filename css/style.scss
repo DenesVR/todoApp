@@ -1,1 +1,40 @@
-@import url("./icomoon/style.css");
+@use "./base/reset";
+@use "./base/fonts";
+
+@import url("../icomoon/style.css");
+
+body {
+    background-color: #eef3f6;
+    font-family: "Roboto", sans-serif;
+}
+
+.todoApp {
+
+    &__form {
+
+
+        &__input {
+
+
+            &--error {}
+        }
+
+        &__button {}
+    }
+
+    &__list {
+
+
+        &__item {
+
+            &--checked {}
+
+            .icon {
+
+                &--remove {}
+
+                &--check {}
+            }
+        }
+    }
+}
