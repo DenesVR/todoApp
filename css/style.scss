@@ -3,41 +3,37 @@
 
 @import url("../icomoon/style.css");
 
-body {
+.todoApp {
+    margin: 0 auto;
     background-color: #eef3f6;
     font-family: "Roboto", sans-serif;
 
-    .todoApp {
-        margin: 0 auto;
+    &__form {
 
 
-        &__form {
+        &__input {
 
 
-            &__input {
-
-
-                &--error {}
-            }
-
-            &__button {}
+            &--error {}
         }
 
-        &__list {
+        &__button {}
+    }
 
-            &__item {
+    &__list {
 
-                &--checked {}
+        &__item {
 
-                .icon {
+            &--checked {}
 
-                    &--remove {}
+            .icon {
 
-                    &--check {}
-                }
+                &--remove {}
 
+                &--check {}
             }
 
         }
+
     }
 }
