@@ -10,6 +10,7 @@ body {
     .todoApp {
         margin: 0 auto;
 
+
         &__form {
 
 
@@ -24,8 +25,6 @@ body {
 
         &__list {
 
-
-
             &__item {
 
                 &--checked {}
@@ -37,40 +36,8 @@ body {
                     &--check {}
                 }
 
-
             }
 
-            .todoApp {
-
-                &__form {
-
-
-                    &__input {
-
-
-                        &--error {}
-                    }
-
-                    &__button {}
-                }
-
-                &__list {
-
-
-                    &__item {
-
-                        &--checked {}
-
-                        .icon {
-
-                            &--remove {}
-
-                            &--check {}
-
-                        }
-                    }
-                }
-            }
         }
     }
 }
