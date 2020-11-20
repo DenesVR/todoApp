@@ -38,39 +38,9 @@ body {
                 }
 
 
+
             }
 
-            .todoApp {
-
-                &__form {
-
-
-                    &__input {
-
-
-                        &--error {}
-                    }
-
-                    &__button {}
-                }
-
-                &__list {
-
-
-                    &__item {
-
-                        &--checked {}
-
-                        .icon {
-
-                            &--remove {}
-
-                            &--check {}
-
-                        }
-                    }
-                }
-            }
         }
     }
 }
