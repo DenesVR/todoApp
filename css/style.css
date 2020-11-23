@@ -138,7 +138,11 @@ table {
 body {
   background-color: #eef3f6;
   font-family: "Roboto", sans-serif;
+}
+body .todoApp {
   margin: 0 auto;
+  width: 80%;
+  max-width: 540px;
 }
 
 /*# sourceMappingURL=style.css.map */
