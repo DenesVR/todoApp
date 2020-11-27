@@ -166,8 +166,10 @@ body .todoApp__form__input {
 }
 body .todoApp__form__button {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  font-size: 75px;
+  color: #fff;
+  right: 19px;
+  top: 15px;
 }
 body .todoApp__list {
   padding: 19px;
