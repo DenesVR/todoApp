@@ -150,6 +150,7 @@ body .todoApp__form {
   padding: 20px;
   border-radius: 10px;
   position: relative;
+  text-decoration: none;
 }
 body .todoApp__form__input {
   display: block;
@@ -167,6 +168,37 @@ body .todoApp__form__button {
   position: absolute;
   right: 20px;
   top: 20px;
+}
+body .todoApp__list {
+  padding: 19px;
+}
+body .todoApp__list__item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 14px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+body .todoApp__list__item .text {
+  margin-right: auto;
+}
+body .todoApp__list a.icoon {
+  display: flex;
+}
+body .todoApp__list a.icoon--remove {
+  color: #cbd5d2;
+  font-size: 20px;
+  padding-right: 14px;
+  border-right: 1px solid #cbd5d2;
+}
+body .todoApp__list a.icoon--check {
+  color: #19ba99;
+  font-size: 20px;
+  justify-content: space-around;
+  margin-left: 14px;
+  padding-left: 2px;
+  border-radius: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
