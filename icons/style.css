@@ -15,10 +15,14 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-plus-circled {
-  width: 0.857421875em;
-}
-
 .icon-trash {
   width: 0.875em;
+}
+
+.icon-ok-circle {
+  width: 0.927734375em;
+}
+
+.icon-plus {
+  width: 0.580078125em;
 }
