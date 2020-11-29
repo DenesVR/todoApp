@@ -166,10 +166,17 @@ body .todoApp__form__input {
 }
 body .todoApp__form__button {
   position: absolute;
-  font-size: 75px;
-  color: #fff;
-  right: 19px;
-  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #19ba99;
+  background-color: #fff;
+  border-radius: 50%;
+  right: 20px;
+  top: 20px;
+  width: 65px;
+  height: 65px;
+  font-size: 44px;
 }
 body .todoApp__list {
   padding: 19px;
