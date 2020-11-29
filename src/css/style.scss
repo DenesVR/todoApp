@@ -32,6 +32,10 @@ body {
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
 
+        &::placeholder {
+          color: #fff;
+        }
+
         // &--error {
         //   background-color: red;
         // }
@@ -50,6 +54,10 @@ body {
         width: 65px;
         height: 65px;
         font-size: 44px;
+
+        &:hover {
+          transform: translateX(2px);
+        }
       }
     }
 
@@ -67,6 +75,11 @@ body {
         .text {
           margin-right: auto;
         }
+
+        &--checked {
+          text-decoration: line-through;
+          text-decoration-color: #19ba99;
+        }
       }
 
       a.icoon {
@@ -77,51 +90,29 @@ body {
           font-size: 20px;
           padding-right: 14px;
           border-right: 1px solid #cbd5d2;
+
+          &:hover {
+            color: red;
+          }
         }
 
         &--check {
           color: #19ba99;
           font-size: 20px;
           justify-content: space-around;
-
           margin-left: 14px;
           padding-left: 2px;
           border-radius: 14px;
         }
-      }
-    }
 
-    &__item {
-      background-color: #fff;
-      padding: 15px;
-      margin-bottom: 14px;
-      border-radius: 7px;
-      display: flex;
-      align-items: center;
-
-      .text {
-        margin-right: auto;
-      }
-    }
-
-    a.icoon {
-      display: flex;
-
-      &--remove {
-        color: #cbd5d2;
-        font-size: 20px;
-        padding-right: 14px;
-        border-right: 1px solid #cbd5d2;
-      }
-
-      &--check {
-        color: #19ba99;
-        font-size: 20px;
-        justify-content: space-around;
-
-        margin-left: 14px;
-        padding-left: 2px;
-        border-radius: 14px;
+        &--checked {
+          color: #19ba99;
+          font-size: 22px;
+          justify-content: space-around;
+          margin-left: 14px;
+          padding-left: 2px;
+          border-radius: 14px;
+        }
       }
     }
   }
