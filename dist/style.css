@@ -164,6 +164,9 @@ body .todoApp__form__input {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
+body .todoApp__form__input::placeholder {
+  color: #fff;
+}
 body .todoApp__form__button {
   position: absolute;
   display: flex;
@@ -177,6 +180,9 @@ body .todoApp__form__button {
   width: 65px;
   height: 65px;
   font-size: 44px;
+}
+body .todoApp__form__button:hover {
+  transform: translateX(2px);
 }
 body .todoApp__list {
   padding: 19px;
@@ -192,6 +198,10 @@ body .todoApp__list__item {
 body .todoApp__list__item .text {
   margin-right: auto;
 }
+body .todoApp__list__item--checked {
+  text-decoration: line-through;
+  text-decoration-color: #19ba99;
+}
 body .todoApp__list a.icoon {
   display: flex;
 }
@@ -201,6 +211,9 @@ body .todoApp__list a.icoon--remove {
   padding-right: 14px;
   border-right: 1px solid #cbd5d2;
 }
+body .todoApp__list a.icoon--remove:hover {
+  color: red;
+}
 body .todoApp__list a.icoon--check {
   color: #19ba99;
   font-size: 20px;
@@ -209,29 +222,9 @@ body .todoApp__list a.icoon--check {
   padding-left: 2px;
   border-radius: 14px;
 }
-body .todoApp__item {
-  background-color: #fff;
-  padding: 15px;
-  margin-bottom: 14px;
-  border-radius: 7px;
-  display: flex;
-  align-items: center;
-}
-body .todoApp__item .text {
-  margin-right: auto;
-}
-body .todoApp a.icoon {
-  display: flex;
-}
-body .todoApp a.icoon--remove {
-  color: #cbd5d2;
-  font-size: 20px;
-  padding-right: 14px;
-  border-right: 1px solid #cbd5d2;
-}
-body .todoApp a.icoon--check {
+body .todoApp__list a.icoon--checked {
   color: #19ba99;
-  font-size: 20px;
+  font-size: 22px;
   justify-content: space-around;
   margin-left: 14px;
   padding-left: 2px;
